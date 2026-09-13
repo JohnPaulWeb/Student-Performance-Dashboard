@@ -20,7 +20,6 @@ import {
 
 
 
-
 const searchInput =
     document.querySelector("#searchInput");
 
@@ -38,10 +37,9 @@ const resetBtn =
 
 
 
-
 function updateDashboard() {
 
-    // Start with searching
+    
     let results =
         searchStudents(
             students,
